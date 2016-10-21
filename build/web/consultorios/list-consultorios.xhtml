@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>#{str.consultingRoomListTitle}</title>
+    </h:head>
+    <h:body>
+         <ui:composition template="/templates/template.xhtml">
+             <ui:define name="contenido">
+                 
+                 
+                <h1>#{str.consultingRoomListTitle}</h1>
+                <h:form>
+                    <p:commandButton value="#{str.buttonAdd}"
+                                     action="#{consultorioBean.iniciar()}"></p:commandButton>
+                </h:form>
+                <p:dataTable value="#{consultorioBean.consultorios}" var="c">
+                    <p:column headerText="#{str.action}">
+                        <h:form>
+                            <p:commandButton value="#{str.buttonEdit}"
+                                             action="#{consultorioBean.editar(c)}"></p:commandButton>
+                        </h:form>
+                    </p:column>
+                    <p:column headerText="#{str.consultingRoomNameHeader}">
+                        <p:outputLabel value="#{c.nombreConsultorio}"></p:outputLabel>
+                    </p:column>
+                    <p:column headerText="#{str.consultingRoomAddressNameHeader}">
+                        <p:outputLabel value="#{c.direccion}"></p:outputLabel>
+                    </p:column>
+                    <p:column headerText="#{str.consultingRoomPhoneNameHeader}">
+                        <p:outputLabel value="#{c.telefono}"></p:outputLabel>
+                    </p:column>
+                </p:dataTable>
+             </ui:define>
+         </ui:composition>
+    </h:body>
+</html>
+

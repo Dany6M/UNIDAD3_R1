@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/src/java/utng/datos/MateriaDAO.java</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/web/pacientes/list-pacientes.xhtml</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/web/dentistas/list-dentistas.xhtml</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/src/java/utng/configuracion/strings.properties</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/src/java/utng/datos/RolDAO.java</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/src/java/utng/modelo/Modulo.java</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/src/java/utng/datos/PacienteDAO.java</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/web/dentistas/form-dentistas.xhtml</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/src/java/utng/datos/UsuarioDAO.java</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/src/java/utng/datos/ModuloDAO.java</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/src/java/utng/modelo/Consultorio.java</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/src/java/utng/modelo/Paciente.java</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/web/materias/list-materias.xhtml</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/web/pacientes/form-pacientes.xhtml</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/web/WEB-INF/faces-config.xml</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/src/java/utng/modelo/Materia.java</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/src/java/utng/configuracion/hibernate.cfg.xml</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/web/consultorios/list-consultorios.xhtml</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/src/java/utng/modelo/Dentista.java</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/web/templates/template.xhtml</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/web/alumnos/form-alumnos.xhtml</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/src/java/utng/modelo/Usuario.java</file>
+            <file>file:/C:/Users/Daniel%20Aguilar/Documents/NetBeansProjects/Project1JSF/src/java/utng/modelo/Rol.java</file>
+        </group>
+    </open-files>
+</project-private>
