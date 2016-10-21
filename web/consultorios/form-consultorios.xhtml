@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>#{str.consultingRoomFormTitle}</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="/templates/template.xhtml">
+            <ui:define name="contenido">
+                <h2>#{str.formHeader}</h2>
+                <p:fieldset legend="#{str.consultingRoomLegendForm}">
+                    <h:form>
+ 
+                        <p:inputText placeholder="#{str.consultingRoomNamePrompt}"
+                                     value="#{consultorioBean.consultorio.nombreConsultorio}"></p:inputText>
+                                     
+                                      <p:inputText placeholder="#{str.consultingRoomAddressNameHeader}"
+                                     value="#{consultorioBean.consultorio.direccion}"></p:inputText>
+                                     
+                                      <p:inputText placeholder="#{str.consultingRoomPhoneNameHeader}"
+                                     value="#{consultorioBean.consultorio.telefono}"></p:inputText>
+                        
+                        <p:commandButton value="#{str.buttonSave}"
+                                         action="#{consultorioBean.guardar()}"></p:commandButton>
+                        <p:commandButton value="#{str.buttonDelete}"
+                                         action="#{consultorioBean.eliminar()}"></p:commandButton>
+                        <p:commandButton value="#{str.buttonCancel}"
+                                         action="#{consultorioBean.cancelar()}"></p:commandButton>
+
+                    </h:form>
+                </p:fieldset>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
+

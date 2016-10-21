@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <h:head>
+        <title>#{str.studentFormTitle}</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="/templates/template.xhtml">
+            <ui:define name="contenido">
+                <h1>#{str.studentFormTitle}</h1>
+                <h:form>
+                    <p:commandButton value="#{str.buttonAdd}"
+                                     action="#{alumnoBean.iniciar()}"></p:commandButton>
+                </h:form>
+                <p:dataTable value="#{alumnoBean.alumnos}" var="a">
+                    <p:column headerText="#{str.action}">
+                        <h:form>
+                            <p:commandButton value="#{str.buttonEdit}"
+                                             action="#{alumnoBean.editar(a)}"></p:commandButton>
+                        </h:form>
+                    </p:column>
+
+
+                    <p:column headerText="#{str.studentNameHeader}">
+                        <p:outputLabel value="#{a.nombreAlumno}"></p:outputLabel>
+                    </p:column>
+                    
+                     <p:column headerText="#{str.matterNameHeader}">
+                        <p:outputLabel value="#{a.materia.nombreMateria}"></p:outputLabel>
+                    </p:column>
+                    
+
+                    <p:column headerText="#{str.lastStudentNamePrompt}">
+                        <p:outputLabel value="#{a.apellidoAlumno}"></p:outputLabel>
+                    </p:column>
+                   
+                    <p:column headerText="#{str.addressStudentPrompt}">
+                        <p:outputLabel value="#{a.direccion}"></p:outputLabel>
+                    </p:column>
+
+
+
+
+                </p:dataTable>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
